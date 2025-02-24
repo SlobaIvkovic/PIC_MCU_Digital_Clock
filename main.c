@@ -38,6 +38,7 @@ void driveAlarm();
 void enablePWMoutput();
 void disablePWMoutput();
 
+void eepromWrite(unsigned int addr, unsigned char byte);
 volatile unsigned char eepromWriteFlag;
 
 enum CLOCK_STATES
